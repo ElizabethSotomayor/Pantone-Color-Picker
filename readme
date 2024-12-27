@@ -1,0 +1,25 @@
+HOW TO USE COLOR FINDER:
+
+1) First, install necessary libraries (can be found at top of pantone.py)
+
+2) Next, run colors.py to load pantone colors from the provided json file
+
+3) Finally, run pantone.py and select option 1 or 2. 
+
+    +for option 1: 
+        -if you wish to test code with provided images:
+        ~colorblock~
+            +game.jpeg
+            +pastel.jpeg
+            +test.png
+            +pie.png
+            +popart.jpeg
+        ~real-life~
+            +fish.jpeg
+            +green.jpg
+
+        -image pop up will be generated showing colors detected, after q is pressed a file will be created for your viewing called: photo_colors.png
+    
+    +for option 2: image pop up will be generated showing colors detected, after q is pressed a file will be created for your viewing called : webcam_colors.png
+        -mouse clicks are also tracked in the standard output for ease of use
+        -you may need to allow webcam permissions, if so, allow webcam and exit the program + restart 
